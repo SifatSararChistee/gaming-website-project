@@ -1,0 +1,24 @@
+@media screen and (max-width:576px) {
+    
+    .nav-bar{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav-options{
+        flex-direction: column;
+    }
+    .nav-options p{
+        margin-bottom: 20px;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-right{
+        width: 100%;
+    }
+
+    .banner-left{
+        width: 100%;
+    }
+}

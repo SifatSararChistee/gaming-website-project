@@ -1,5 +1,8 @@
 @media screen and (max-width:576px) {
-    
+    main{
+        margin: 0 20px;
+    }
+
     .nav-bar{
         flex-direction: column;
         gap: 20px;
@@ -20,5 +23,26 @@
 
     .banner-left{
         width: 100%;
+    }
+
+    .gamer{
+        flex-direction: column;
+    }
+
+    .gamer-img{
+        width: 100%;
+    }
+
+    .gamer-content{
+        width: 100%;
+        align-items: center;
+    }
+
+    .gamer-content p{
+        text-align: center;
+    }
+
+    .gamer-content h3{
+        font-size: 24px;
     }
 }

@@ -259,7 +259,7 @@ body{
     width: 50%;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .gallery1-tittle h1{
@@ -273,7 +273,7 @@ body{
     font-size: 18px;
     font-weight: 400;
     text-align: left;
-    text-wrap: nowrap;
+    text-wrap: wrap;
     margin-bottom: 40px;
 }
 
@@ -286,6 +286,50 @@ body{
 }
 
 .gallery1-img2{
+    position: absolute;
+    top: 60%;
+    right: 38%;
+}
+
+
+/* *gallery2 section */
+
+.gallery2{
+    margin-top: 150px;
+    position: relative;
+}
+
+.gallery2-tittle{
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.gallery2-tittle h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-wrap: nowrap;
+}
+.gallery2-tittle p{
+    color: rgb(83, 76, 100);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    margin-bottom: 40px;
+    text-wrap: balance;
+}
+
+.gallery2-img{
+    width: 50%;
+}
+
+.gallery2-img1 img{
+    width: 100%;
+}
+
+.gallery2-img2{
     position: absolute;
     top: 60%;
     right: 38%;

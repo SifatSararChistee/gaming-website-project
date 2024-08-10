@@ -87,5 +87,48 @@
         width: 100%;
     }
 
+    .gallery2{
+        flex-direction: column-reverse;
+    }
+
+    .gallery2-tittle{
+        font-size: 28px;
+        width: 100%;
+        align-items:center;
+    }
+
+    .gallery2-tittle p{
+        text-align: center;
+        text-wrap: balance;
+    }
+    .gallery2-tittle h1{
+        text-align: center;
+    }
+    .gallery2-img{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .gallery2-img1 img{
+        width: 100%;
+    }
+
+    .gallery2-img1{
+        width:90%;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .gallery2-img2{
+        margin: 0 auto;
+        width: 40%;
+        top: 75%;
+        left: 70%;
+    }
+    
+    .gallery2-img2 img{
+        width: 100%;
+    }
+
 
 }

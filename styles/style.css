@@ -247,3 +247,46 @@ body{
     top: 45%;
     right: 35%;
 }
+
+/* *gallery1 section */
+
+.gallery1{
+    margin-top: 80px;
+    position: relative;
+}
+
+.gallery1-tittle{
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery1-tittle h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-wrap: nowrap;
+}
+.gallery1-tittle p{
+    color: rgb(83, 76, 100);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    text-wrap: nowrap;
+    margin-bottom: 40px;
+}
+
+.gallery1-img{
+    width: 50%;
+}
+
+.gallery1-img1 img{
+    width: 100%;
+}
+
+.gallery1-img2{
+    position: absolute;
+    top: 60%;
+    right: 38%;
+}

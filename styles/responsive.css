@@ -53,4 +53,39 @@
     .video-tittle h1{
         font-size: 26px;
     }
+
+    .gallery1{
+        flex-direction: column;
+    }
+
+    .gallery1-tittle{
+        width: 100%;
+    }
+
+    .gallery1-img{
+        width: 100%;
+    }
+
+    .gallery1-img1 img{
+        width: 100%;
+    }
+
+    .gallery1-img1{
+        width:90%;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .gallery1-img2{
+        margin: 0 auto;
+        width: 40%;
+        top: 85%;
+        right: 70%;
+    }
+    
+    .gallery1-img2 img{
+        width: 100%;
+    }
+
+
 }

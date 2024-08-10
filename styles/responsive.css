@@ -45,4 +45,12 @@
     .gamer-content h3{
         font-size: 24px;
     }
+
+    .videos{
+        flex-direction: column;
+    }
+
+    .video-tittle h1{
+        font-size: 26px;
+    }
 }

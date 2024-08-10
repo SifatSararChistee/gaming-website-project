@@ -200,3 +200,50 @@ body{
     font-weight: 700;
     text-wrap: nowrap;
 }
+
+/* *videos section */
+
+.video-tittle h1{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 80px;
+    text-wrap: nowrap;
+}
+
+.video-tittle p{
+    color: rgb(83, 76, 100);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.videos{
+    gap: 20px;
+}
+
+.video>p{
+    color: rgb(83, 76, 100);
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-wrap: wrap;
+}
+
+#bg-sp{
+    border-radius: 16px;
+    position: relative;
+}
+
+.sp-para{
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 66, 165);
+    position: absolute;
+    top: 45%;
+    right: 35%;
+}

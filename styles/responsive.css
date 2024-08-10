@@ -130,5 +130,25 @@
         width: 100%;
     }
 
+    .career{
+        flex-direction: column;
+        margin-top: 100px;
+        padding: 0 20px;
+    }
 
+    .career-content{
+        width: 100%;
+        align-items: center;
+        margin-left:0px;
+        margin-top: 40px;
+    }
+
+    .career-list{
+        justify-content:center;
+        text-wrap: nowrap;
+        gap: 40px;
+    }
+    .career-img{
+        width: 100%;
+    }
 }

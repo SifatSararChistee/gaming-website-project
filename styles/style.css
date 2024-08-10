@@ -334,3 +334,55 @@ body{
     top: 60%;
     right: 38%;
 }
+
+/* *career section */
+
+.career-container{
+    background: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+}
+
+.career{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1920px;
+    margin-top: 200px;
+}
+
+.career-content{
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+.career-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.career-content p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-wrap: wrap;
+}
+
+.career-list{
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 100px;
+}
+
+.career-img{
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.career-img img{
+    width: 100%;
+}
